@@ -48,13 +48,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="pack.bat" />
     <None Include="packages.config" />
+    <None Include="SintegraIe.nuspec" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\DllInscE32.dll">
+    <None Include="..\DllInscE32.dll">
       <Link>DllInscE32.dll</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

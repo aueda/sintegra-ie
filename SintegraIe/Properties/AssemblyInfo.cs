@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("SintegraIE")]
-[assembly: AssemblyDescription("SintegraIE is a .NET wrapper for Sintegra's IE validation")]
+[assembly: AssemblyDescription("SintegraIE is a .NET wrapper for Sintegra's Inscrição Estadual validation. For documentation visit https://github.com/aueda/sintegra-ie")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Adriano Ueda")]
 [assembly: AssemblyProduct("SintegraIE")]
-[assembly: AssemblyCopyright("Copyright © Adriano Ueda 2013")]
+[assembly: AssemblyCopyright("Copyright © Adriano Ueda 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -34,4 +34,4 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("0.1.0.0")]
 [assembly: AssemblyFileVersion("0.1.0.0")]
-[assembly: AssemblyInformationalVersion("0.1-alpha")]
+[assembly: AssemblyInformationalVersion("0.1.0-alpha")]
