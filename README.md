@@ -1,6 +1,6 @@
 #SintegraIE
 
-SintegraIE is a .NET wrapper for Sintegra's IE validation.
+SintegraIE is a .NET wrapper for Sintegra's Inscrição Estadual validation.
 
 It uses the [official library](http://www.sintegra.gov.br/download.html) to validate IE.
 
